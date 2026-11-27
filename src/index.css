@@ -36,7 +36,7 @@
 html {
   background-color: var(--bg-paper);
   color: var(--text-ink);
-  font-family: 'NanumSquare', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
   word-break: keep-all;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
@@ -52,7 +52,7 @@ body {
 }
 
 .font-serif-editorial {
-  font-family: 'NanumSquare', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  font-family: 'IBM Plex Sans KR', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
 }
 
 .font-mono-code {
