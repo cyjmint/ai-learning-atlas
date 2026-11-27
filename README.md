@@ -3,7 +3,6 @@
 AI 기술의 출발점부터 현대 프론티어 AI의 작동 방식까지 **인과관계 중심의 단일 경로**로 체계적으로 학습하는 인터랙티브 웹 가이드입니다.
 
 - **라이브 웹페이지**: https://cyjmint.github.io/ai-learning-atlas/
-- **GitHub 저장소**: https://github.com/cyjmint/ai-learning-atlas
 
 ---
 
