@@ -1,0 +1,108 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-paper: #FAF8F5;
+  --bg-surface: #F4F0E9;
+  --bg-elevated: #FFFFFF;
+  --text-ink: #1F1D1A;
+  --text-muted: #635C54;
+  --border-subtle: #E6DFD5;
+  --accent: #C2593E;
+  --accent-hover: #A8482F;
+  --accent-soft: rgba(194, 89, 62, 0.10);
+  --teal: #2C6E6A;
+  --teal-soft: rgba(44, 110, 106, 0.12);
+  --ochre: #B8862D;
+  --ochre-soft: rgba(184, 134, 45, 0.12);
+}
+
+.dark {
+  --bg-paper: #171614;
+  --bg-surface: #201E1B;
+  --bg-elevated: #262420;
+  --text-ink: #ECE7DF;
+  --text-muted: #A59D92;
+  --border-subtle: #33302B;
+  --accent: #DF7356;
+  --accent-hover: #EB8569;
+  --accent-soft: rgba(223, 115, 86, 0.14);
+  --teal: #4EA39D;
+  --teal-soft: rgba(78, 163, 157, 0.16);
+  --ochre: #D9A74A;
+  --ochre-soft: rgba(217, 167, 74, 0.16);
+}
+
+html {
+  background-color: var(--bg-paper);
+  color: var(--text-ink);
+  font-family: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-paper);
+  color: var(--text-ink);
+  line-height: 1.75;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.font-serif-editorial {
+  font-family: 'Newsreader', 'Noto Serif KR', Georgia, serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.editorial-prose p {
+  line-height: 1.82;
+  letter-spacing: -0.005em;
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.4rem 0;
+  margin: 0.5rem 0;
+}
+
+/* Custom range slider for editorial simulators */
+input[type="range"].atlas-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 9999px;
+  background: var(--border-subtle);
+  outline: none;
+}
+
+input[type="range"].atlas-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  background: var(--accent);
+  border: 2px solid var(--bg-elevated);
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
+  transition: transform 0.15s ease;
+}
+
+input[type="range"].atlas-range::-webkit-slider-thumb:hover {
+  transform: scale(1.12);
+}
+
+input[type="range"].atlas-range::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  background: var(--accent);
+  border: 2px solid var(--bg-elevated);
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
+}
