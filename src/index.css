@@ -36,7 +36,8 @@
 html {
   background-color: var(--bg-paper);
   color: var(--text-ink);
-  font-family: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  font-family: 'NanumSquare', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  word-break: keep-all;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -51,7 +52,7 @@ body {
 }
 
 .font-serif-editorial {
-  font-family: 'Newsreader', 'Noto Serif KR', Georgia, serif;
+  font-family: 'NanumSquare', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
 }
 
 .font-mono-code {

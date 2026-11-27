@@ -38,7 +38,8 @@ export function RoadmapView({
           Frontier AI Atlas
         </h1>
         <p className="mt-3 text-base leading-relaxed text-[var(--text-muted)] sm:text-lg">
-          넘쳐나는 AI 자료 속에서 길을 잃지 않도록, AI의 출발점부터 현대 프론티어 AI의 작동 방식까지{' '}
+          넘쳐나는 AI 자료 속에서 길을 잃지 않도록, AI의 출발점부터 현대 프론티어 AI의 작동 방식까지
+          <br />
           <strong className="font-semibold text-[var(--text-ink)]">
             &ldquo;이전 기술의 한계 → 핵심 원리 → 다음 단계로의 필연적 연결&rdquo;
           </strong>
